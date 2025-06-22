@@ -5,10 +5,15 @@ function out = overlaymr(image,mask)
       
     end
     if nargin < 2
-        tool = imtool3D(double(image.dataAy));
+        %tool = imtool3D(double(image.dataAy));
+        tool = imtool3D(flip(double(image.dataAy),3));
     else
-        tool = imtool3D(double(image.dataAy));
-        setMask(tool,double(mask.dataAy));
+        %tool = imtool3D(double(image.dataAy));
+        tool = imtool3D(flip(double(image.dataAy),3));
+
+        %setMask(tool,double(mask.dataAy));
+        setMask(tool,flip(double(mask.dataAy),3));
+        
       
     end
     
