@@ -1,5 +1,4 @@
 % Edison Sun
-% edisonsun2028@u.northwestern.edu
 % Composes mrStructs for an input dicom CEMRA and input nifti (exported
 % from 3D Slicer
 
