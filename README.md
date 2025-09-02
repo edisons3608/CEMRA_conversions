@@ -62,12 +62,4 @@ Background: There existed a need to modify previous manual CEMRA segmentations. 
 As a result, there is a need to convert the CEMRA image mrStruct and mask mrStruct into respective NIFTI volumes to be able to be visualized in 3D Slicer.
 
 
-## mrStruct2nii_refine.m
-
-
-
-
-## Contact
-
-Email: edisonsun2028@u.northwestern.edu
 
